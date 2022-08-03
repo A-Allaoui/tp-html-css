@@ -1,0 +1,49 @@
+img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+body{background-color: rgb(186, 211, 57);
+    margin: 0;   
+    padding:0;
+    
+}
+
+.p{
+    display: inline-flex;
+    width: 300%;
+    height: 300px;
+    
+}
+.a{
+    display: inline-block;
+    width: 45%;
+    height: 250px;
+    border: 2px solid;
+    background-color: rgb(57, 181, 154);
+    margin: 10px;
+
+}
+.b{
+    display: inline-block;
+    width: 45%;
+    height: 250px;
+    border: 2px solid;
+    background-color: rgb(57, 181, 154);
+    margin: 10px;
+}
+.p{
+    width: 100%;
+    height: 300px;
+    
+
+}
+.a, .b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    rotate: 90 deg;
+    transform: rotate(90deg);
+}
