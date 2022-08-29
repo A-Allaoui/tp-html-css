@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tp.css">
+    <title>Tp1</title>
+</head>
+
+<body>
+    <img src="nature.jpg" >
+  <h1>Mon premier tp: <strong>Abderemane Allaoui</strong> </h1> 
+  <div id="container">
+    <div class="bloc">
+        <p>bloc1</p>
+    </div>
+    <div class="bloc">
+        <p>bloc2</p>
+    </div>
+    <div class="bloc">
+        <p>bloc3</p>
+    </div>
+    <div class="bloc">
+        <p>bloc4</p>
+    </div>
+  </div>
+  <div id="bonton-container">
+    <button id="bahati" onclick="cct()">cliquer</button>
+  </div>
+
+  <div class="form">
+    <form id="formulaire">
+      <label for="prenom">prenom</label><br>
+      <input type="texte" class="form-control" id="prenom"><br>
+      <div id="prenom-erreur"></div>
+      <label for="nom">nom</label><br>
+      <input type="texte" class="form-control" id="nom"><br>
+      <div id="nom-erreur"></div>
+      <label for="email">email</label><br>
+      <input type="email" class="form-control" id="email"><br>
+      <div id="email-erreur"></div>
+      <label for="commentaire">commentaire</label><br>
+      <textarea name="commentaire" id="message" cols="30" rows="10" class="form-control"></textarea>
+      <div id="commentaire-erreur"></div>
+      <button type="submit" id="submit">soumettre</button>
+    </form>
+  </div>
+  <div id="result"></div>
+
+ 
+  <script src="tp.js"></script>
+</body>
+</html>
